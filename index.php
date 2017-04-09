@@ -8,12 +8,14 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
-<!--        <script src="./ext_js/jquery-3.2.0.min.js"></script>
+       <script src="./ext_js/jquery-3.2.0.min.js"></script>
+       <script src="./ext_js/jquery-ui.min.js"></script>
+       <script src="./ext_js/jquery-ui.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/datatables.min.css"/>
  
-<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/datatables.min.js"></script>-->
+<!--<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/datatables.min.js"></script>-->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"/>
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>-->
 <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     </head>
     <body>
@@ -61,7 +63,8 @@ and open the template in the editor.
     </table>
         <script>
 $(document).ready(function() {
-    $('#example').DataTable( {
+    
+    var table = $('#example').DataTable( {
 //        "processing": true,
 //        "serverSide": true,
         "ajax": {url: './GetData.php',   type: 'POST'},
@@ -84,7 +87,23 @@ $(document).ready(function() {
             
             
           ]} );
+      $('#example tfoot th').each( function () {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+    } );
+     table.columns().every( function () {
+        var that = this;
+ 
+        $( 'input', this.footer() ).on( 'keyup change', function () {
+            if ( that.search() !== this.value ) {
+                that
+                    .search( this.value )
+                    .draw();
+            }
+        } );
+    } );
 } );
+
 </script>
 
         <?php
