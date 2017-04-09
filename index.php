@@ -32,42 +32,43 @@ and open the template in the editor.
         <script>
 $(document).ready(function() {
     $('#example').DataTable( {
-        "processing": true,
-        "serverSide": true,
+//        "processing": true,
+//        "serverSide": true,
         "ajax": {url: './GetData.php',   type: 'POST'},
           "columns": [
             {"data": "adat"}
           ]} );
 } );
 </script>
+
         <?php
-        echo "haha2";
-        
-$servername = "localhost";
-$username = "root";
-$password = "";
-
-$conn = new mysqli($servername, $username, $password, "csv_db");
-mysqli_set_charset($conn, "utf8");
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-
-$sql = "SELECT * from munka1";
-
-$result = $conn->query($sql);
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "adat: " . $row["adat"]. "<br>";
-    }
-} else {
-    echo "0 results";
-}
-
-$conn->close();
+//        echo "haha2";
+//        
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//
+//$conn = new mysqli($servername, $username, $password, "csv_db");
+//mysqli_set_charset($conn, "utf8");
+//// Check connection
+//if ($conn->connect_error) {
+//    die("Connection failed: " . $conn->connect_error);
+//}
+//echo "Connected successfully";
+//
+//$sql = "SELECT * from munka1";
+//
+//$result = $conn->query($sql);
+//if ($result->num_rows > 0) {
+//    // output data of each row
+//    while($row = $result->fetch_assoc()) {
+//        echo "adat: " . $row["adat"]. "<br>";
+//    }
+//} else {
+//    echo "0 results";
+//}
+//
+//$conn->close();
         ?>
     </body>
 </html>
