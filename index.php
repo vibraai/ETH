@@ -18,14 +18,44 @@ and open the template in the editor.
     </head>
     <body>
         <table id="example" class="display" cellspacing="0" width="100%">
+            
         <thead>
             <tr>
-                <th>First name</th>
+                <th>Sorszám</th>
+                <th>Kötetszám</th>
+                <th>Megye</th>
+                <th>Település SZTA</th>
+                <th>Évszám</th>
+                <th>Hivatkozás</th>
+                <th>Adat</th>
+                <th>Helyfajta</th>
+                <th>SZTA megjegyzés</th>
+                <th>Szélesség</th>
+                <th>Hosszúság</th>
+                <th>1913-as név</th>
+                <th>Mai településnév</th>
+                <th>Nem magyar névváltozat</th>
+                <th>Nem magyar név SZTA</th>
+                
             </tr>
         </thead>
         <tfoot>
             <tr>
-                <th>First name</th>
+                <th>Sorszám</th>
+                <th>Kötetszám</th>
+                <th>Megye</th>
+                <th>Település SZTA</th>
+                <th>Évszám</th>
+                <th>Hivatkozás</th>
+                <th>Adat</th>
+                <th>Helyfajta</th>
+                <th>SZTA megjegyzés</th>
+                <th>Szélesség</th>
+                <th>Hosszúság</th>
+                <th>1913-as név</th>
+                <th>Mai településnév</th>
+                <th>Nem magyar névváltozat</th>
+                <th>Nem magyar név SZTA</th>
             </tr>
         </tfoot>
     </table>
@@ -36,7 +66,23 @@ $(document).ready(function() {
 //        "serverSide": true,
         "ajax": {url: './GetData.php',   type: 'POST'},
           "columns": [
-            {"data": "adat"}
+            {"data": "Sorszám"},
+            {"data": "kötetszám"},
+            {"data": "megye"},
+            {"data": "település SZTA"},
+            {"data": "évszám"},
+            {"data": "hivatkozás"},
+            {"data": "adat"},
+            {"data": "helyfajta"},
+            {"data": "SZTA megjegyzés"},
+             {"data": "szélesség"},
+            {"data": "hosszúság"},
+            {"data": "1913-as név"},
+            {"data": "mai településnév"},
+            {"data": "nem magyar névváltozat"},
+            {"data": "nem magyar név SZTA"}
+            
+            
           ]} );
 } );
 </script>
