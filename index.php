@@ -12,11 +12,32 @@ and open the template in the editor.
        <script src="./ext_js/jquery-ui.min.js"></script>
        <script src="./ext_js/jquery-ui.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/datatables.min.css"/>
- 
-<!--<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/datatables.min.js"></script>-->
+
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"/>
-<!--<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>-->
 <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+<style>
+.label {
+  padding: 0px 10px 0px 10px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 1em; /* for mozilla-based browsers */
+	-webkit-border-radius: 1em; /* for webkit-based browsers */
+	border-radius: 1em; /* theoretically for *all* browsers*/
+}
+
+.label.lightblue {
+	background-color: #99CCFF;
+}
+
+#external_filter_container_wrapper {
+  margin-bottom: 20px;
+}
+
+#external_filter_container {
+  display: inline-block;
+}
+</style>  
+
     </head>
     <body>
         <table id="example" class="display" cellspacing="0" width="100%">
@@ -63,7 +84,6 @@ and open the template in the editor.
     </table>
         <script>
 $(document).ready(function() {
-    
     var table = $('#example').DataTable( {
 //        "processing": true,
 //        "serverSide": true,
@@ -75,7 +95,7 @@ $(document).ready(function() {
             {"data": "település SZTA"},
             {"data": "évszám"},
             {"data": "hivatkozás"},
-            {"data": "adat"},
+            {"data": "adat",text_data_delimiter: ",", enable_auto_complete: true},
             {"data": "helyfajta"},
             {"data": "SZTA megjegyzés"},
              {"data": "szélesség"},
@@ -87,14 +107,14 @@ $(document).ready(function() {
             
             
           ]} );
-      $('#example tfoot th').each( function () {
+      $('#example thead th').each( function () {
         var title = $(this).text();
-        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+        $(this).html( '<input id="'+title+'" type="text" placeholder="Keresés '+title+'" />' );
     } );
      table.columns().every( function () {
         var that = this;
  
-        $( 'input', this.footer() ).on( 'keyup change', function () {
+        $( 'input', this.header() ).on( 'keyup change', function () {
             if ( that.search() !== this.value ) {
                 that
                     .search( this.value )
@@ -102,6 +122,8 @@ $(document).ready(function() {
             }
         } );
     } );
+    
+  
 } );
 
 </script>
