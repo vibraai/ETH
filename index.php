@@ -85,28 +85,13 @@ and open the template in the editor.
         <script>
 $(document).ready(function() {
     var table = $('#example').DataTable( {
-//        "processing": true,
-//        "serverSide": true,
-        "ajax": {url: './GetData.php',   type: 'POST'},
-          "columns": [
-            {"data": "Sorszám"},
-            {"data": "kötetszám"},
-            {"data": "megye"},
-            {"data": "település SZTA"},
-            {"data": "évszám"},
-            {"data": "hivatkozás"},
-            {"data": "adat",text_data_delimiter: ",", enable_auto_complete: true},
-            {"data": "helyfajta"},
-            {"data": "SZTA megjegyzés"},
-             {"data": "szélesség"},
-            {"data": "hosszúság"},
-            {"data": "1913-as név"},
-            {"data": "mai településnév"},
-            {"data": "nem magyar névváltozat"},
-            {"data": "nem magyar név SZTA"}
+"bProcessing": true,
+		"bServerSide": true,
+        "sAjaxSource":  "./Nice.php"
+                
             
             
-          ]} );
+          } );
       $('#example thead th').each( function () {
         var title = $(this).text();
         $(this).html( '<input id="'+title+'" type="text" placeholder="Keresés '+title+'" />' );
