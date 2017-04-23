@@ -8,17 +8,17 @@
 	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 	 * Easy set variables
 	 */
-	
+	ini_set('max_execution_time', 300);
 	/* Array of database columns which should be read and sent back to DataTables. Use a space where
 	 * you want to insert a non-database field (for example a counter or static image)
 	 */
-	$aColumns = array( 'Sorszam','kotetszam','megye','telepulesSZTA','evszam','hivatkozas','adat','helyfajta','SZTAmegjegyzes','szelesseg','hosszusag','1913asnev','maitelepulesnev','nemmagyarnevvaltozat','nemmagyarnevSZTA' );
+	$aColumns = array( 'Sorszam','kotetszam','megye','telepulesSZTA','evszam','hivatkozas','adat','helyfajta','SZTAmegjegyzes','egyebmegjegyzes','szelesseg','hosszusag','1913asnev','maitelepulesnev','nemmagyarnevvaltozat','nemmagyarnevSZTA' );
 	
 	/* Indexed column (used for fast and accurate table cardinality) */
 	$sIndexColumn = "Sorszam";
 	
 	/* DB table to use */
-	$sTable = "munka1";
+	$sTable = "eth";
 	
 	/* Database connection information */
 	$gaSql['user']       = "root";
@@ -50,25 +50,30 @@ mysqli_set_charset($gaSql['link'], "utf8");
 	/*
 	 * Ordering
 	 */
-	if ( isset( $_GET['iSortCol_0'] ) )
-	{
-		$sOrder = "ORDER BY  ";
-		for ( $i=0 ; $i<intval( $_GET['iSortingCols'] ) ; $i++ )
-		{
-			if ( $_GET[ 'bSortable_'.intval($_GET['iSortCol_'.$i]) ] == "true" )
-			{
-				$sOrder .= $aColumns[ intval( $_GET['iSortCol_'.$i] ) ]."
-				 	".mysqli_real_escape_string($gaSql['link'], $_GET['sSortDir_'.$i] ) .", ";
-			}
-		}
-		
-		$sOrder = substr_replace( $sOrder, "", -2 );
-		if ( $sOrder == "ORDER BY" )
-		{
-			$sOrder = "";
-		}
-	}
-	
+        /*
+         * ideiglenesen kikommentezve, h gyorsabb legyen. Egyeztetni, mert lehet h felesleges, mert nincs ra igeny
+         * lent, az sOrder is ki lett szedve az $sWhere es a $sLimit közül
+         *  
+         */
+//	if ( isset( $_GET['iSortCol_0'] ) )
+//	{
+//		$sOrder = "ORDER BY  ";
+//		for ( $i=0 ; $i<intval( $_GET['iSortingCols'] ) ; $i++ )
+//		{
+//			if ( $_GET[ 'bSortable_'.intval($_GET['iSortCol_'.$i]) ] == "true" )
+//			{
+//				$sOrder .= $aColumns[ intval( $_GET['iSortCol_'.$i] ) ]."
+//				 	".mysqli_real_escape_string($gaSql['link'], $_GET['sSortDir_'.$i] ) .", ";
+//			}
+//		}
+//		
+//		$sOrder = substr_replace( $sOrder, "", -2 );
+//		if ( $sOrder == "ORDER BY" )
+//		{
+//			$sOrder = "";
+//		}
+//	}
+//	
 	
 	/* 
 	 * Filtering
@@ -82,7 +87,13 @@ mysqli_set_charset($gaSql['link'], "utf8");
 		$sWhere = "WHERE (";
 		for ( $i=0 ; $i<count($aColumns) ; $i++ )
 		{
-			$sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'], $_GET['sSearch'] )."%' OR ";
+                    if ( $_GET['checkKotetszam'] == "false" && $aColumns[$i] == "kotetszam"){
+                                $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'], $_GET['sSearch'] )."%' OR ";
+                            }
+                            else {
+                                $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'], $_GET['sSearch'] )."%' AND ";
+                            }
+			
 		}
 		$sWhere = substr_replace( $sWhere, "", -3 );
 		$sWhere .= ')';
@@ -93,13 +104,21 @@ mysqli_set_charset($gaSql['link'], "utf8");
 	{
 		if ( $_GET['bSearchable_'.$i] == "true" && $_GET['sSearch_'.$i] != '' )
 		{
+                   
 			if ( $sWhere == "" )
 			{
 				$sWhere = "WHERE ";
 			}
 			else
 			{
-				$sWhere .= " AND ";
+                            
+                            if ( $_GET['checkKotetszam'] == "false" && $aColumns[$i] == "kotetszam"){
+                                $sWhere .= " OR ";
+                            }
+                            else {
+                                $sWhere .= " AND ";
+                            }
+				
 			}
 			$sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$_GET['sSearch_'.$i])."%' ";
 		}
@@ -114,7 +133,6 @@ mysqli_set_charset($gaSql['link'], "utf8");
 		SELECT SQL_CALC_FOUND_ROWS ".str_replace(" , ", " ", implode(", ", $aColumns))."
 		FROM   $sTable
 		$sWhere
-		$sOrder
 		$sLimit
 	";
        
