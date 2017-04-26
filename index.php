@@ -6,11 +6,18 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
         <meta charset="UTF-8">
         <title></title>
-       <script src="./ext_js/jquery-3.2.0.min.js"></script>
-       <script src="./ext_js/jquery-ui.min.js"></script>
-       <script src="./ext_js/jquery-ui.min.js"></script>
+        <script src="./ext_js/jquery-3.2.0.min.js"></script>
+        <script src="./ext_js/jquery-ui.min.js"></script>
+        <script src="./ext_js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/datatables.min.css"/>
 
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"/>
@@ -98,7 +105,7 @@ $(document).ready(function() {
             {"data": "adat",text_data_delimiter: ",", enable_auto_complete: true},
             {"data": "helyfajta"},
             {"data": "SZTA megjegyzés"},
-             {"data": "szélesség"},
+            {"data": "szélesség"},
             {"data": "hosszúság"},
             {"data": "1913-as név"},
             {"data": "mai településnév"},
@@ -128,35 +135,72 @@ $(document).ready(function() {
 
 </script>
 
-        <?php
-//        echo "haha2";
-//        
-//$servername = "localhost";
-//$username = "root";
-//$password = "";
-//
-//$conn = new mysqli($servername, $username, $password, "csv_db");
-//mysqli_set_charset($conn, "utf8");
-//// Check connection
-//if ($conn->connect_error) {
-//    die("Connection failed: " . $conn->connect_error);
-//}
-//echo "Connected successfully";
-//
-//$sql = "SELECT * from munka1";
-//
-//$result = $conn->query($sql);
-//if ($result->num_rows > 0) {
-//    // output data of each row
-//    while($row = $result->fetch_assoc()) {
-//        echo "adat: " . $row["adat"]. "<br>";
-//    }
-//} else {
-//    echo "0 results";
-//}
-//
-//$conn->close();
-        ?>
+
+    <input type="button" id="startMap" name="getAllPlace" value="Találatok megjelenítése"></input>
+    
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            var uluru = {lat: -25.363, lng: 131.044};
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+            });
+            markers=new Array();
+        }
+        
+      
+        function addMarker(x,y){
+            x = parseFloat(x).toPrecision(5);
+            y = parseFloat(y).toPrecision(5);
+            for (var i = 0; i < markers.length; i++) {
+                console.log("Do we have the marker at " + i + " : " + markers[i].getPosition().lat() + " == " + x + markers[i].getPosition().lng() + " == " + y);
+                if ( parseFloat(markers[i].getPosition().lat()).toPrecision(5) === x && parseFloat(markers[i].getPosition().lng()).toPrecision(5) === y) {
+                    console.log("Marker already exists");
+                    return;
+                }
+            }
+            var marker = new google.maps.Marker({
+                map: map,
+                position: new google.maps.LatLng(x,y)
+            });
+
+            markers.push(marker);
+            map.setCenter(marker.getPosition());
+        }
+    
+        function drawEvents(json){
+            for(var i=0; i<json.length;++i){
+                if(json[i]['x']!=0 || json[i]['y']!=0){
+                    addMarker(i,json[i]['x'],json[i]['y']);
+                    $('#'+i).click(function(e){
+                        var marker = markers[$(e.target).attr('id')];
+                        var myLatLng = marker.getPosition();
+                        map.setCenter(myLatLng);
+                        $("html, body").animate({ scrollTop: '0px' }, 500);
+                        return false;
+                    });
+                }else{
+
+                }
+            }
+        }
+        $(document).ready(function(){
+
+            $('#startMap').live('click', function() {
+                var table = $('#example').DataTable();
+                var data = table.rows().data();
+                for (var i = 0; i < 70; i++) {
+                    addMarker(data[i]["szélesség"], data[i]["hosszúság"]);
+                }
+            });
+        });
+    
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ6ZwsrToM9FWmbAxMRSJGac88zm4xmfg&callback=initMap">
+    </script>
     </body>
 </html>
 
