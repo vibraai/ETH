@@ -60,6 +60,7 @@ and open the template in the editor.
                 <th>Adat</th>
                 <th>Helyfajta</th>
                 <th>SZTA megjegyzés</th>
+                <th>Egyéb megjegyzés</th>
                 <th>Szélesség</th>
                 <th>Hosszúság</th>
                 <th>1913-as név</th>
@@ -80,6 +81,7 @@ and open the template in the editor.
                 <th>Adat</th>
                 <th>Helyfajta</th>
                 <th>SZTA megjegyzés</th>
+                <th>Egyéb megjegyzés</th>
                 <th>Szélesség</th>
                 <th>Hosszúság</th>
                 <th>1913-as név</th>
@@ -91,6 +93,7 @@ and open the template in the editor.
     </table>
         <script>
 $(document).ready(function() {
+    var checkKotetszam = $("#checkKötetszám").is(":checked");
     var table = $('#example').DataTable( {
 //        "processing": true,
 //        "serverSide": true,
@@ -113,21 +116,45 @@ $(document).ready(function() {
             {"data": "nem magyar név SZTA"}
             
             
-          ]} );
+          } );
+//          table.ajax.url('nice.php?'+cucc=fos).load();
+var checkKotetszam = $("#checkKötetszám").is(":checked");
+if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":checked");
+         table.ajax.url('Nice.php?'+'checkKotetszam='+checkKotetszam);
       $('#example thead th').each( function () {
         var title = $(this).text();
-        $(this).html( '<input id="'+title+'" type="text" placeholder="Keresés '+title+'" />' );
+        $(this).html( '<input id="'+title+'" type="text" placeholder="Keresés '+title+'" /><input type="checkbox" id="check'+title+'" value=""> És kapcsolat' );
     } );
      table.columns().every( function () {
         var that = this;
- 
+        if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":checked");
+ table.ajax.url('Nice.php?'+'checkKotetszam='+checkKotetszam);
         $( 'input', this.header() ).on( 'keyup change', function () {
-            if ( that.search() !== this.value ) {
+            if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":checked");
+            table.ajax.url('Nice.php?'+'checkKotetszam='+checkKotetszam);
+            if (this.id=="checkKötetszám"){
+                
+            var checkKotetszam = $("#checkKötetszám").is(":checked");
+            var kotetszam = $("#Kötetszám").val();
+            console.debug(checkKotetszam);
+            console.debug(kotetszam.value);
+            if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":checked");
+          table.ajax.url('Nice.php?'+'checkKotetszam='+checkKotetszam);
+            if ( that.search() !== kotetszam.value ) {
+              
+                that
+                    .search( kotetszam )
+                    .draw();
+            }
+        }
+        else {
+             if ( that.search() !== this.value ) {
+              
                 that
                     .search( this.value )
                     .draw();
             }
-        } );
+        } });
     } );
     
   

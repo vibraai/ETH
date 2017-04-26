@@ -6,6 +6,7 @@
  * and open the template in the editor.
  */
 function getData($sql){
+  
     $servername = "localhost";
 $username = "root";
 $password = "";
@@ -32,7 +33,7 @@ if ($conn->connect_error) {
 
 $sql = "SELECT * from munka1";
 //print_r(getData("SELECT * from munka1"));
-$data = getData("SELECT * from munka1");
+$data = getData("SELECT * from szta");
 $response = array(
     "data" => $data
 );
