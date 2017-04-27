@@ -97,7 +97,7 @@ $(document).ready(function() {
             
           } );
 //          table.ajax.url('nice.php?'+cucc=fos).load();
-var checkKotetszam = $("#checkKötetszám").is(":checked");
+ checkKotetszam = $("#checkKötetszám").is(":checked");
 if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":checked");
          table.ajax.url('Nice.php?'+'checkKotetszam='+checkKotetszam);
       $('#example thead th').each( function () {

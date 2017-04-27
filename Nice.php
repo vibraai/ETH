@@ -16,8 +16,16 @@
 	
 	/* Indexed column (used for fast and accurate table cardinality) */
 	$sIndexColumn = "Sorszam";
-	
 	/* DB table to use */
+//	$sTable = "eth";
+//	
+//	/* Database connection information */
+//	$gaSql['user']       = "p_eha";
+//	$gaSql['password']   = "qUQHT2K7CBUSwGRA";
+//	$gaSql['db']         = "p_eha";
+//	$gaSql['server']     = "mysql.caesar.elte.hu";
+        
+//	/* DB table to use */
 	$sTable = "eth";
 	
 	/* Database connection information */
