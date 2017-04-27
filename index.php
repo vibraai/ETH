@@ -92,32 +92,14 @@ and open the template in the editor.
         </tfoot>
     </table>
         <script>
-$(document).ready(function() {
+ $(document).ready(function() {
     var checkKotetszam = $("#checkKötetszám").is(":checked");
     var table = $('#example').DataTable( {
-//        "processing": true,
-//        "serverSide": true,
-        "ajax": {url: './GetData.php',   type: 'POST'},
-          "columns": [
-            {"data": "Sorszám"},
-            {"data": "kötetszám"},
-            {"data": "megye"},
-            {"data": "település SZTA"},
-            {"data": "évszám"},
-            {"data": "hivatkozás"},
-            {"data": "adat",text_data_delimiter: ",", enable_auto_complete: true},
-            {"data": "helyfajta"},
-            {"data": "SZTA megjegyzés"},
-            {"data": "szélesség"},
-            {"data": "hosszúság"},
-            {"data": "1913-as név"},
-            {"data": "mai településnév"},
-            {"data": "nem magyar névváltozat"},
-            {"data": "nem magyar név SZTA"}
-            
-            
+                "bProcessing": true,
+		"bServerSide": true,
+                "sAjaxSource":  "./Nice.php",
           } );
-//          table.ajax.url('nice.php?'+cucc=fos).load();
+
  checkKotetszam = $("#checkKötetszám").is(":checked");
 if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":checked");
          table.ajax.url('Nice.php?'+'checkKotetszam='+checkKotetszam);
@@ -127,6 +109,7 @@ if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":c
     } );
      table.columns().every( function () {
         var that = this;
+
         if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":checked");
  table.ajax.url('Nice.php?'+'checkKotetszam='+checkKotetszam);
         $( 'input', this.header() ).on( 'keyup change', function () {
@@ -218,8 +201,8 @@ if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":c
             $('#startMap').live('click', function() {
                 var table = $('#example').DataTable();
                 var data = table.rows().data();
-                for (var i = 0; i < 70; i++) {
-                    addMarker(data[i]["szélesség"], data[i]["hosszúság"]);
+                for (var i = 0; i < 10; i++) {
+                    addMarker(data[i][10], data[i][11]);
                 }
             });
         });
