@@ -17,18 +17,19 @@
 	/* Indexed column (used for fast and accurate table cardinality) */
 	$sIndexColumn = "Sorszam";
 	/* DB table to use */
-//	$sTable = "eth";
-//	
-//	/* Database connection information */
-//	$gaSql['user']       = "p_eha";
-//	$gaSql['password']   = "qUQHT2K7CBUSwGRA";
-//	$gaSql['db']         = "p_eha";
-//	$gaSql['server']     = "mysql.caesar.elte.hu";
-        
-//	/* DB table to use */
 	$sTable = "eth";
-	
+//	
 	/* Database connection information */
+        /*
+	$gaSql['user']       = "p_eha";
+	$gaSql['password']   = "qUQHT2K7CBUSwGRA";
+	$gaSql['db']         = "p_eha";
+	$gaSql['server']     = "mysql.caesar.elte.hu";
+        */
+//	/* DB table to use */
+//	$sTable = "eth";
+	
+//	/* Database connection information */
 	$gaSql['user']       = "root";
 	$gaSql['password']   = "";
 	$gaSql['db']         = "csv_db";
@@ -43,7 +44,7 @@
 	/* 
 	 * MySQL connection
 	 */
-	$gaSql['link'] =  new mysqli($gaSql['server'], $gaSql['user'], $gaSql['password'], "csv_db");
+	$gaSql['link'] =  new mysqli($gaSql['server'], $gaSql['user'], $gaSql['password'], $gaSql['db']);
 mysqli_set_charset($gaSql['link'], "utf8");
 
 /* Paging
@@ -51,7 +52,8 @@ mysqli_set_charset($gaSql['link'], "utf8");
 	$sLimit = "";
 	if ( isset( $_GET['iDisplayStart'] ) && $_GET['iDisplayLength'] != '-1' )
 	{
-		$sLimit = "LIMIT "."10";
+		$sLimit = "LIMIT ".mysql_real_escape_string( $_GET['iDisplayStart'] ).", ".
+			mysql_real_escape_string( $_GET['iDisplayLength'] );
 	}
 	
 	
