@@ -52,8 +52,8 @@ mysqli_set_charset($gaSql['link'], "utf8");
 	$sLimit = "";
 	if ( isset( $_GET['iDisplayStart'] ) && $_GET['iDisplayLength'] != '-1' )
 	{
-		$sLimit = "LIMIT ".mysql_real_escape_string( $_GET['iDisplayStart'] ).", ".
-			mysql_real_escape_string( $_GET['iDisplayLength'] );
+		$sLimit = "LIMIT ".mysqli_real_escape_string($gaSql['link'], $_GET['iDisplayStart'] ).", ".
+			mysqli_real_escape_string($gaSql['link'], $_GET['iDisplayLength'] );
 	}
 	
 	
