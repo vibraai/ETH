@@ -7,8 +7,12 @@ and open the template in the editor.
 <html>
     <head>
         <style>
+       body, html {
+        height: 100%;
+        width: 100%;
+       }
        #map {
-        height: 400px;
+        height: 100%;
         width: 100%;
        }
     </style>
@@ -94,7 +98,7 @@ and open the template in the editor.
         <script>
  $(document).ready(function() {
     var checkKotetszam = $("#checkKötetszám").is(":checked");
-    var table = $('#example').DataTable( {
+    table = $('#example').DataTable( {
                 "bProcessing": true,
 		"bServerSide": true,
                 "sAjaxSource":  "./Nice.php",
@@ -148,26 +152,31 @@ if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":c
 
     <input type="button" id="startMap" name="getAllPlace" value="Találatok megjelenítése"></input>
     
-    <h3>My Google Maps Demo</h3>
+    <h3>Találatok térképen</h3>
     <div id="map"></div>
     <script>
         function initMap() {
-            var uluru = {lat: -25.363, lng: 131.044};
+            var uluru = {lat: 46.274, lng: 23.069};
             map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 4,
+                zoom: 8,
                 center: uluru
             });
             markers=new Array();
+            lastinfowindow=-1;
         }
         
       
-        function addMarker(x,y){
+        function addMarker(x, y, city, data){
             x = parseFloat(x).toPrecision(5);
             y = parseFloat(y).toPrecision(5);
             for (var i = 0; i < markers.length; i++) {
                 console.log("Do we have the marker at " + i + " : " + markers[i].getPosition().lat() + " == " + x + markers[i].getPosition().lng() + " == " + y);
                 if ( parseFloat(markers[i].getPosition().lat()).toPrecision(5) === x && parseFloat(markers[i].getPosition().lng()).toPrecision(5) === y) {
                     console.log("Marker already exists");
+                    var contentText = markers[i].infowindow.content;
+                    contentText = contentText + data + "<br>";
+                    markers[i].infowindow.setContent(contentText);
+                    console.log(markers[i].infowindow.content);
                     return;
                 }
             }
@@ -176,37 +185,41 @@ if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":c
                 position: new google.maps.LatLng(x,y)
             });
 
+            var contentHtml = "<h5>" +"Település : "+ city +"</h5>" + data + "<br>";
+            var infoWindow = new google.maps.InfoWindow({
+                content: contentHtml
+            });
+            marker.infowindow = infoWindow;
+            google.maps.event.addListener(marker, 'click', function() {
+                if(lastinfowindow >=0) markers[lastinfowindow].infowindow.close();
+                    marker.infowindow.open(map, marker);
+                    lastinfowindow = marker.count;  		
+                });
+            
             markers.push(marker);
             map.setCenter(marker.getPosition());
-        }
-    
-        function drawEvents(json){
-            for(var i=0; i<json.length;++i){
-                if(json[i]['x']!=0 || json[i]['y']!=0){
-                    addMarker(i,json[i]['x'],json[i]['y']);
-                    $('#'+i).click(function(e){
-                        var marker = markers[$(e.target).attr('id')];
-                        var myLatLng = marker.getPosition();
-                        map.setCenter(myLatLng);
-                        $("html, body").animate({ scrollTop: '0px' }, 500);
-                        return false;
-                    });
-                }else{
-
-                }
-            }
         }
         $(document).ready(function(){
 
             $('#startMap').live('click', function() {
-                var table = $('#example').DataTable();
+                destroy();
                 var data = table.rows().data();
-                for (var i = 0; i < 10; i++) {
-                    addMarker(data[i][10], data[i][11]);
+                for (var i = 0; i < data.length; i++) {
+                    console.log(data);
+                    console.log(data[i][3][6]);
+                    addMarker(data[i][10], data[i][11], data[i][3], data[i][6]);
                 }
             });
         });
-    
+        
+        function destroy(){
+            for (var i = 0; i < markers.length; i++) {
+            if (markers[i] !== undefined)
+                    markers[i].setMap(null);
+            }
+            markers=[];
+            lastinfowindow=-1;
+	}
     </script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ6ZwsrToM9FWmbAxMRSJGac88zm4xmfg&callback=initMap">
