@@ -133,11 +133,12 @@ mysqli_set_charset($gaSql['link'], "utf8");
 			}
                         if (strpos($_GET['sSearch_'.$i], ' VAGY ') !== false) {
                             $arrOR=explode(" VAGY ",$_GET['sSearch_'.$i]);
-                            $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrOR[0])."%' ";
+                            $sWhere .= "(".$aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrOR[0])."%' ";
                             for ($j=1;$j<count($arrOR);$j++){
                                 $sWhere .= " OR ";
                                 $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrOR[$j])."%' ";
                             }
+                            $sWhere .=")";
                            
                         }
                         else if ($aColumns[$i] == "evszam"){
@@ -175,7 +176,7 @@ mysqli_set_charset($gaSql['link'], "utf8");
 $current .= $sQuery;
 // Write the contents back to the file
 file_put_contents($file, $current);  
-         
+      
 	$rResult = mysqli_query( $gaSql['link'],$sQuery  ) or die(mysqli_error($gaSql['link']));
 	
 	/* Data set length after filtering */
