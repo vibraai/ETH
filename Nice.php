@@ -131,15 +131,76 @@ mysqli_set_charset($gaSql['link'], "utf8");
                             }
 				
 			}
-                        if (strpos($_GET['sSearch_'.$i], ' VAGY ') !== false) {
-                            $arrOR=explode(" VAGY ",$_GET['sSearch_'.$i]);
+                        if (strpos($_GET['sSearch_'.$i], ' OR ') !== false) {
+                            $arrOR=explode(" OR ",$_GET['sSearch_'.$i]);
                             $sWhere .= "(".$aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrOR[0])."%' ";
                             for ($j=1;$j<count($arrOR);$j++){
+                                if (strpos($arrOR[$j], ' NOT ') !== false) {
+                                    $lastOR = explode(" NOT ",$arrOR[$j])[0];
+                                    $arrNOTOR=explode(" NOT ",$_GET['sSearch_'.$i]);
+                                    $sWhere .= " OR ";
+                                    $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$lastOR)."%' ";
+                                    $sWhere .=")";
+                                    $sWhere .= " AND ";
+                                    $sWhere .= "(".$aColumns[$i]." NOT LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrNOTOR[1])."%' ";
+                                    for ($k=2;$k<count($arrNOTOR);$k++){
+                                        $sWhere .= " AND ";
+                                        $sWhere .= $aColumns[$i]." NOT LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrNOTOR[$k])."%' ";
+                                    }
+                                   
+                                }
+                                else {
                                 $sWhere .= " OR ";
                                 $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrOR[$j])."%' ";
+                                }
                             }
                             $sWhere .=")";
                            
+                        }
+                        else if (strpos($_GET['sSearch_'.$i], ' AND ') !== false) {
+                            $arrAND=explode(" AND ",$_GET['sSearch_'.$i]);
+                            $sWhere .= "(".$aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrAND[0])."%' ";
+                               for ($j=1;$j<count($arrAND);$j++){
+                                if (strpos($arrAND[$j], ' NOT ') !== false) {
+                                    $lastAND = explode(" NOT ",$arrAND[$j])[0];
+                                    $arrNOTAND=explode(" NOT ",$_GET['sSearch_'.$i]);
+                                    $sWhere .= " AND ";
+                                    $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$lastAND)."%' ";
+                                    $sWhere .=")";
+                                    $sWhere .= " AND ";
+                                    $sWhere .= "(".$aColumns[$i]." NOT LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrNOTAND[1])."%' ";
+                                    for ($k=2;$k<count($arrNOTAND);$k++){
+                                        $sWhere .= " AND ";
+                                        $sWhere .= $aColumns[$i]." NOT LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrNOTAND[$k])."%' ";
+                                    }
+                                   
+                                }
+                                else {
+                                $sWhere .= " AND ";
+                                $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrAND[$j])."%' ";
+                                }
+                            }
+                            $sWhere .=")";
+                           
+                        }
+                        else if (strpos($_GET['sSearch_'.$i], ' NOT ') !== false) {
+                            $arrNOT=explode(" NOT ",$_GET['sSearch_'.$i]);
+                            if (substr($_GET['sSearch_'.$i], 0, 4)=='NOT '){
+                                $sWhere .= "(".$aColumns[$i]." NOT LIKE '%".mysqli_real_escape_string($gaSql['link'],substr($arrNOT[0],4,strlen($arrNOT[0])))."%' ";
+                            }
+                            else {
+                            $sWhere .= "(".$aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrNOT[0])."%' ";
+                            }
+                            for ($j=1;$j<count($arrNOT);$j++){
+                                $sWhere .= " AND ";
+                                $sWhere .= $aColumns[$i]." NOT LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrNOT[$j])."%' ";
+                            }
+                            $sWhere .=")";
+                           
+                        }
+                        else if (substr($_GET['sSearch_'.$i], 0, 4)=='NOT ') {
+                            $arrNOT=explode(" NOT ",$_GET['sSearch_'.$i]);
+                            $sWhere .= "".$aColumns[$i]." NOT LIKE '%".mysqli_real_escape_string($gaSql['link'],substr($arrNOT[0],4,strlen($arrNOT[0])))."%' ";
                         }
                         else if ($aColumns[$i] == "evszam"){
                             $arrEvszam=explode("-",$_GET['sSearch_'.$i]);
