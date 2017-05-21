@@ -109,7 +109,7 @@ if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":c
          table.ajax.url('Nice.php?'+'checkKotetszam='+checkKotetszam);
       $('#example thead th').each( function () {
         var title = $(this).text();
-        $(this).html( '<input id="'+title+'" type="text" placeholder="Keresés '+title+'" /><input type="checkbox" id="check'+title+'" value=""> És kapcsolat' );
+        $(this).html( '<input id="'+title+'" type="text" placeholder="Keresés '+title+'" /><input style="display:none" type="checkbox" id="check'+title+'" value="">' );
     } );
      table.columns().every( function () {
         var that = this;
