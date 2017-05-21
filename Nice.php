@@ -131,7 +131,16 @@ mysqli_set_charset($gaSql['link'], "utf8");
                             }
 				
 			}
-                        if ($aColumns[$i] == "evszam"){
+                        if (strpos($_GET['sSearch_'.$i], ' VAGY ') !== false) {
+                            $arrOR=explode(" VAGY ",$_GET['sSearch_'.$i]);
+                            $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrOR[0])."%' ";
+                            for ($j=1;$j<count($arrOR);$j++){
+                                $sWhere .= " OR ";
+                                $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$arrOR[$j])."%' ";
+                            }
+                           
+                        }
+                        else if ($aColumns[$i] == "evszam"){
                             $arrEvszam=explode("-",$_GET['sSearch_'.$i]);
                             
                             if (count($arrEvszam)==2 && $arrEvszam[0]!=null && strlen($arrEvszam[0])==4 && $arrEvszam[1] != null && strlen($arrEvszam[1])==4) {
@@ -158,15 +167,15 @@ mysqli_set_charset($gaSql['link'], "utf8");
 		$sWhere
 		$sLimit
 	";
-        /*
-        $file = 'queries.txt';
+        
+       
+          $file = 'queries.txt';
        $current = file_get_contents($file);
 // Append a new person to the file
 $current .= $sQuery;
 // Write the contents back to the file
-file_put_contents($file, $current);
-         * 
-         */
+file_put_contents($file, $current);  
+         
 	$rResult = mysqli_query( $gaSql['link'],$sQuery  ) or die(mysqli_error($gaSql['link']));
 	
 	/* Data set length after filtering */
