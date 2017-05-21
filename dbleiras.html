@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        1. adatbázis import
+	- navicat x86-tal localba import, oszlopnev 2 sorban adat 3sortol
+	- táblára jobb katt dump sql file structure and data
+	- a létrejött sql-t és a bigdump.php--t fel kell tolteni a serverre, vagy ugye localba
+	- a bigdump.php-t meghívva mehet az import
+	- evszam kereseshez: 
+ALTER TABLE `munka1` ADD `evszamINT` SMALLINT(4);  
+UPDATE `munka1` SET `evszamINT` = substring(evszam,1,4);
+        - a projectben szereplo xlsx-ben mar le lettek cserelve az oszlopnevek ekezetnelkuli szokozmentesre
+    </body>
+</html>

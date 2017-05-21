@@ -97,12 +97,13 @@ mysqli_set_charset($gaSql['link'], "utf8");
 		$sWhere = "WHERE (";
 		for ( $i=0 ; $i<count($aColumns) ; $i++ )
 		{
+                    
                     if ( $_GET['checkKotetszam'] == "false" && $aColumns[$i] == "kotetszam"){
                                 $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'], $_GET['sSearch'] )."%' OR ";
                             }
-                            else {
-                                $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'], $_GET['sSearch'] )."%' AND ";
-                            }
+                    else {
+                        $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'], $_GET['sSearch'] )."%' AND ";
+                    }
 			
 		}
 		$sWhere = substr_replace( $sWhere, "", -3 );
@@ -130,7 +131,19 @@ mysqli_set_charset($gaSql['link'], "utf8");
                             }
 				
 			}
-			$sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$_GET['sSearch_'.$i])."%' ";
+                        if ($aColumns[$i] == "evszam"){
+                            $arrEvszam=explode("-",$_GET['sSearch_'.$i]);
+                            
+                            if (count($arrEvszam)==2 && $arrEvszam[0]!=null && strlen($arrEvszam[0])==4 && $arrEvszam[1] != null && strlen($arrEvszam[1])==4) {
+                            $sWhere .= $aColumns[$i]." BETWEEN '".$arrEvszam[0]."' AND '".$arrEvszam[1]."'";
+                            }
+                            else {
+                                $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$_GET['sSearch_'.$i])."%' ";
+                            }
+                        }
+                        else {
+                            $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'],$_GET['sSearch_'.$i])."%' ";
+                        }
 		}
 	}
 	
@@ -145,7 +158,15 @@ mysqli_set_charset($gaSql['link'], "utf8");
 		$sWhere
 		$sLimit
 	";
-       
+        /*
+        $file = 'queries.txt';
+       $current = file_get_contents($file);
+// Append a new person to the file
+$current .= $sQuery;
+// Write the contents back to the file
+file_put_contents($file, $current);
+         * 
+         */
 	$rResult = mysqli_query( $gaSql['link'],$sQuery  ) or die(mysqli_error($gaSql['link']));
 	
 	/* Data set length after filtering */
