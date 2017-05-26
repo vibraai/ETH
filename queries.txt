@@ -2471,3 +2471,2510 @@
 		
 		LIMIT 0, 10
 	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%Nfehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%NOTfehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%3%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%3%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehéri%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE kotetszam LIKE '%fds%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE (Sorszam LIKE '%g%' AND kotetszam LIKE '%g%' OR megye LIKE '%g%' AND telepulesSZTA LIKE '%g%' AND evszam LIKE '%g%' AND hivatkozas LIKE '%g%' AND adat LIKE '%g%' AND helyfajta LIKE '%g%' AND SZTAmegjegyzes LIKE '%g%' AND egyebmegjegyzes LIKE '%g%' AND szelesseg LIKE '%g%' AND hosszusag LIKE '%g%' AND 1913asnev LIKE '%g%' AND maitelepulesnev LIKE '%g%' AND nemmagyarnevvaltozat LIKE '%g%' AND nemmagyarnevSZTA LIKE '%g%' A) OR kotetszam LIKE '%fds%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE (Sorszam LIKE '%gfd%' AND kotetszam LIKE '%gfd%' OR megye LIKE '%gfd%' AND telepulesSZTA LIKE '%gfd%' AND evszam LIKE '%gfd%' AND hivatkozas LIKE '%gfd%' AND adat LIKE '%gfd%' AND helyfajta LIKE '%gfd%' AND SZTAmegjegyzes LIKE '%gfd%' AND egyebmegjegyzes LIKE '%gfd%' AND szelesseg LIKE '%gfd%' AND hosszusag LIKE '%gfd%' AND 1913asnev LIKE '%gfd%' AND maitelepulesnev LIKE '%gfd%' AND nemmagyarnevvaltozat LIKE '%gfd%' AND nemmagyarnevSZTA LIKE '%gfd%' A) OR kotetszam LIKE '%fds%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%b%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%bab%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%babsz%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%babsze%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%babszele%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%babszelet%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE kotetszam LIKE '%4%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE kotetszam LIKE '%432%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér %' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér NO%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér NOT%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE (megye LIKE '%fehér%'  AND megye NOT LIKE '%%' )
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE (megye LIKE '%fehér%'  AND megye NOT LIKE '%A%' )
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE (megye LIKE '%fehér%'  AND megye NOT LIKE '%Al%' )
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE (megye LIKE '%fehér%'  AND megye NOT LIKE '%Als%' )
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE (megye LIKE '%fehér%'  AND megye NOT LIKE '%Alsó%' )
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%al%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%als%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%alsó%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%NO%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%NOT%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%A%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Al%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Als%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Alsó%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Alsófe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Alsófeh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Alsófehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ga%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ga%' 
+		LIMIT 10, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ga%' 
+		LIMIT 20, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%23%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%t%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ti%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibi%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibike%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibikee%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibikeee%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibikeeee%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibikeeeee%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%t%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ti%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tib%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibi%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibike%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibikee%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%t%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ti%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibi%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibike%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibikee%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%t%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ti%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tib%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibi%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibik%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibike%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fewf%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fewfw%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ti%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibi%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibio%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibior%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibiork%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibiorka%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%ti%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibi%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibik%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibike%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%k%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ka%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%kak%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%kaka%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%t%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%ti%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibi%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibik%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibike%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibikeef%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibikeef%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibikeefe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibikeefef%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%tibikeefef%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fsfd%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fd%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsf%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%fds%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%fdsf%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%fdsfs%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fd%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fds%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsf%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsfs%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fds%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsf%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsfs%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%few%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%4%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%432%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%4324%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%43242%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%b%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%bab%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%baba%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%babab%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%babab%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%t%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ti%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tib%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibi%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibik%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%tibikeeeeeeeeee%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%few%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fewfw%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fewfwef%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fewfwef%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fewfwef%'  AND nemmagyarnevSZTA LIKE '%b%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fewfwef%'  AND nemmagyarnevSZTA LIKE '%bab%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fds%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsf%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsfdsf%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsfdsf%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsfdsf%'  AND nemmagyarnevSZTA LIKE '%ga%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsfdsf%'  AND nemmagyarnevSZTA LIKE '%gag%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fdsfdsf%'  AND nemmagyarnevSZTA LIKE '%gaga%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%321%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%321%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE Sorszam LIKE '%2%'  AND megye LIKE '%321%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE Sorszam LIKE '%22%'  AND megye LIKE '%321%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE (Sorszam LIKE '%f%' AND kotetszam LIKE '%f%' OR megye LIKE '%f%' AND telepulesSZTA LIKE '%f%' AND evszam LIKE '%f%' AND hivatkozas LIKE '%f%' AND adat LIKE '%f%' AND helyfajta LIKE '%f%' AND SZTAmegjegyzes LIKE '%f%' AND egyebmegjegyzes LIKE '%f%' AND szelesseg LIKE '%f%' AND hosszusag LIKE '%f%' AND 1913asnev LIKE '%f%' AND maitelepulesnev LIKE '%f%' AND nemmagyarnevvaltozat LIKE '%f%' AND nemmagyarnevSZTA LIKE '%f%' A)
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE (Sorszam LIKE '%fsd%' AND kotetszam LIKE '%fsd%' OR megye LIKE '%fsd%' AND telepulesSZTA LIKE '%fsd%' AND evszam LIKE '%fsd%' AND hivatkozas LIKE '%fsd%' AND adat LIKE '%fsd%' AND helyfajta LIKE '%fsd%' AND SZTAmegjegyzes LIKE '%fsd%' AND egyebmegjegyzes LIKE '%fsd%' AND szelesseg LIKE '%fsd%' AND hosszusag LIKE '%fsd%' AND 1913asnev LIKE '%fsd%' AND maitelepulesnev LIKE '%fsd%' AND nemmagyarnevvaltozat LIKE '%fsd%' AND nemmagyarnevSZTA LIKE '%fsd%' A)
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fef%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fefe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fefe%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fefe%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%fefe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%fefe%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%fefe%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%A%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%Ab%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%Abr%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%Abru%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%Abrud%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%Abrud%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE telepulesSZTA LIKE '%Abrud%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fd%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fds%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fd%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%b%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%bab%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%ba%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%b%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%t%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%f%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehr%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%feh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fe%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%fehér%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+        SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+        FROM   eth
+        
+
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+        SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+        FROM   eth
+        
+
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+        SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+        FROM   eth
+        
+
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+        SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+        FROM   eth
+        
+
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%NO%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye LIKE '%NOT%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%A%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Al%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Als%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Alsó%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Alsóf%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Alsófeh%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Alsófehé%' 
+		LIMIT 0, 10
+	
+		SELECT SQL_CALC_FOUND_ROWS Sorszam, kotetszam, megye, telepulesSZTA, evszam, hivatkozas, adat, helyfajta, SZTAmegjegyzes, egyebmegjegyzes, szelesseg, hosszusag, 1913asnev, maitelepulesnev, nemmagyarnevvaltozat, nemmagyarnevSZTA
+		FROM   eth
+		WHERE megye NOT LIKE '%Alsófehér%' 
+		LIMIT 0, 10
+	

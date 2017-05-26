@@ -107,9 +107,10 @@ and open the template in the editor.
  checkKotetszam = $("#checkKötetszám").is(":checked");
 if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":checked");
          table.ajax.url('Nice.php?'+'checkKotetszam='+checkKotetszam);
+         
       $('#example thead th').each( function () {
         var title = $(this).text();
-        $(this).html( '<input id="'+title+'" type="text" placeholder="Keresés '+title+'" /><input style="display:none" type="checkbox" id="check'+title+'" value="">' );
+        $(this).html( '<input id="'+title+'" type="text" placeholder="Keresés '+title+'" />' );
     } );
      table.columns().every( function () {
         var that = this;
@@ -135,6 +136,7 @@ if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":c
             }
         }
         else {
+           
              if ( that.search() !== this.value ) {
               
                 that
@@ -151,6 +153,7 @@ if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":c
 
 
     <input type="button" id="startMap" name="getAllPlace" value="Találatok megjelenítése"></input>
+    <input type="button" id="export" name="export" value="Exportálás Excelbe"></input>
     
     <h3>Találatok térképen</h3>
     <div id="map"></div>
@@ -200,7 +203,44 @@ if (checkKotetszam === undefined) checkKotetszam = $("#checkKötetszám").is(":c
             map.setCenter(marker.getPosition());
         }
         $(document).ready(function(){
+             //ide click felülírás, tömb összeállítás serlializálás
+            
+           
+             $('#export').live('click', function() {
+                 var fieldInputs = [];
+                 var i = 0;
+                 var k = 0;
+                 var objectsArray = [];
+                 var objects = {};
 
+
+                 var urlParams = "?";
+                 $("#example :input").each( function () {
+                            fieldInputs.push($(this).val());
+                           
+                            objects = {name: fieldInputs[i]};
+                            objectsArray.push({name: $(this).val()});
+                            
+                            i++;
+                            k=i-1;
+                            if (i==16){
+                                
+                                urlParams=urlParams+"sSearch_"+k+"="+$(this).val();
+                                return false;
+                            }
+                            
+                            urlParams=urlParams+"sSearch_"+k+"="+$(this).val()+"&";
+                } );
+                window.open("Export.php"+urlParams+"","_self");
+//                console.log(objects);
+//                console.log(objectsArray);
+//                console.log(urlParams);
+//                 $.ajax({
+//  type: "GET",
+//  url: "Export.php"+urlParams,
+//  
+//});
+            });
             $('#startMap').live('click', function() {
                 destroy();
                 var data = table.rows().data();
