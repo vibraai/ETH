@@ -1,12 +1,17 @@
 $( document ).ready(function() {
-      $("#kereses").live('click', function () {
-      $( "#main" ).load( "./table.php", function() {
-         $("#adattar").live('click', function () {
-                  $("#main").load("./about.html", function() {
+    $("#kereses").live('click', function () {
+        $( "#main" ).load( "./table.php", function() {
+            $("#adattar").live('click', function () {
+                $("#main").load("./about.html", function() {
     
-});
                 });
-          console.log("hej");
+            });
+        $("#sugo").live('click', function () {
+            $("#main").load("./help.html", function() {
+    
+            });
+        });
+        console.log("hej");
                var                table = $('#example').DataTable({
                     "bProcessing": true,
                     "bServerSide": true,
@@ -189,12 +194,17 @@ $( document ).ready(function() {
                 });
 });});
     $("#fejlec").live('click', function () {
-      $( "#main" ).load( "./table.php", function() {
-         $("#adattar").live('click', function () {
-                  $("#main").load("./about.html", function() {
+        $( "#main" ).load( "./table.php", function() {
+            $("#adattar").live('click', function () {
+                $("#main").load("./about.html", function() {
     
-});
                 });
+            });
+    $("#sugo").live('click', function () {
+        $("#main").load("./help.html", function() {
+    
+        });
+    });
           console.log("hej");
                var                table = $('#example').DataTable({
                     "bProcessing": true,

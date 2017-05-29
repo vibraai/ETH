@@ -31,9 +31,9 @@ if ($conn->connect_error) {
 
 //echo "Connected successfully2";
 
-$sql = "SELECT * from munka1";
+$sql = "SELECT * from locality";
 //print_r(getData("SELECT * from munka1"));
-$data = getData("SELECT * from szta");
+$data = getData("SELECT * from locality limit 100");
 $response = array(
     "data" => $data
 );
