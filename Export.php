@@ -17,7 +17,7 @@ ini_set('memory_limit', '2048M');
 /* Array of database columns which should be read and sent back to DataTables. Use a space where
  * you want to insert a non-database field (for example a counter or static image)
  */
-$aColumns = array('Sorszam', 'kotetszam', 'megye', 'telepulesSZTA', 'evszam', 'hivatkozas', 'adat', 'helyfajta', 'SZTAmegjegyzes', 'egyebmegjegyzes', 'szelesseg', 'hosszusag', '1913asnev', 'maitelepulesnev', 'nemmagyarnevvaltozat', 'nemmagyarnevSZTA');
+$aColumns = array('kotetszam', 'megye', 'telepulesSZTA', 'evszam', 'hivatkozas', 'adat', 'helyfajta', 'SZTAmegjegyzes', 'egyebmegjegyzes', 'nemmagyarnevvaltozat', 'Sorszam', 'szelesseg', 'hosszusag', '1913asnev', 'maitelepulesnev', 'nemmagyarnevSZTA');
 
 /* Indexed column (used for fast and accurate table cardinality) */
 $sIndexColumn = "Sorszam";

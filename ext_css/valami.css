@@ -1,0 +1,57 @@
+     .label {
+                padding: 0px 10px 0px 10px;
+                border: 1px solid #ccc;
+                -moz-border-radius: 1em; /* for mozilla-based browsers */
+                -webkit-border-radius: 1em; /* for webkit-based browsers */
+                border-radius: 1em; /* theoretically for *all* browsers*/
+            }
+
+            .label.lightblue {
+                background-color: #99CCFF;
+            }
+
+            #external_filter_container_wrapper {
+                margin-bottom: 20px;
+            }
+
+            #external_filter_container {
+                display: inline-block;
+            }
+            
+              body, html {
+                height: 100%;
+                width: 100%;
+            }
+            #map {
+                height: 100%;
+                width: 100%;
+            }
+            #example { table-layout: fixed; }
+            
+            div.container {
+        width: 80%;
+    }
+	  #example { table-layout: fixed; }
+	
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+input::-webkit-input-placeholder {
+color: white !important;
+font-variant: small-caps;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: white !important; 
+font-variant: small-caps; 
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+font-variant: small-caps;
+}
+ 
+input:-ms-input-placeholder {  
+color: white !important;  
+font-variant: small-caps;
+}

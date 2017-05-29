@@ -1,0 +1,31 @@
+div.container {
+        width: 80%;
+    }
+	  #example { table-layout: fixed;font-family:Calibri }
+	
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+input::-webkit-input-placeholder {
+color: white !important;
+font-variant: small-caps;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: white !important; 
+font-variant: small-caps; 
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+font-variant: small-caps;
+}
+ 
+input:-ms-input-placeholder {  
+color: white !important;  
+font-variant: small-caps;
+}
+#menu {
+    background-color: #19467e;
+	color: white;
+}

@@ -14,7 +14,7 @@ ini_set('memory_limit', '2048M');
 /* Array of database columns which should be read and sent back to DataTables. Use a space where
  * you want to insert a non-database field (for example a counter or static image)
  */
-$aColumns = array('Sorszam', 'kotetszam', 'megye', 'telepulesSZTA', 'evszam', 'hivatkozas', 'adat', 'helyfajta', 'SZTAmegjegyzes', 'egyebmegjegyzes', 'szelesseg', 'hosszusag', '1913asnev', 'maitelepulesnev', 'nemmagyarnevvaltozat', 'nemmagyarnevSZTA');
+$aColumns = array('kotetszam', 'megye', 'telepulesSZTA', 'evszam', 'hivatkozas', 'adat', 'helyfajta', 'SZTAmegjegyzes', 'egyebmegjegyzes', 'nemmagyarnevvaltozat', 'Sorszam', 'szelesseg', 'hosszusag', '1913asnev', 'maitelepulesnev', 'nemmagyarnevSZTA');
 $aColumnsMap = array('telepulesSZTA', 'adat', 'szelesseg', 'hosszusag');
 
 /* Indexed column (used for fast and accurate table cardinality) */
@@ -56,13 +56,9 @@ for ($i = 0; $i < count($aColumns); $i++) {
         if ($sWhere == "") {
             $sWhere = "WHERE ";
         } else {
-
-            if ($_GET['checkKotetszam'] == "false" && $aColumns[$i] == "kotetszam") {
-                $sWhere .= " OR ";
-            } else {
-                $sWhere .= " AND ";
-            }
+            $sWhere .= " AND ";
         }
+
         if (strpos($_GET['sSearch_' . $i], ' OR ') !== false) {
             $arrOR = explode(" OR ", $_GET['sSearch_' . $i]);
             $sWhere .= "(" . $aColumns[$i] . " LIKE '%" . mysqli_real_escape_string($gaSql['link'], $arrOR[0]) . "%' ";

@@ -13,7 +13,7 @@ ini_set('max_execution_time', 300);
 /* Array of database columns which should be read and sent back to DataTables. Use a space where
  * you want to insert a non-database field (for example a counter or static image)
  */
-$aColumns = array('Sorszam', 'kotetszam', 'megye', 'telepulesSZTA', 'evszam', 'hivatkozas', 'adat', 'helyfajta', 'SZTAmegjegyzes', 'egyebmegjegyzes', 'szelesseg', 'hosszusag', '1913asnev', 'maitelepulesnev', 'nemmagyarnevvaltozat', 'nemmagyarnevSZTA');
+$aColumns = array('kotetszam', 'megye', 'telepulesSZTA', 'evszam', 'hivatkozas', 'adat', 'helyfajta', 'SZTAmegjegyzes', 'egyebmegjegyzes', 'nemmagyarnevvaltozat', 'Sorszam', 'szelesseg', 'hosszusag', '1913asnev', 'maitelepulesnev', 'nemmagyarnevSZTA');
 
 /* Indexed column (used for fast and accurate table cardinality) */
 $sIndexColumn = "Sorszam";
@@ -91,19 +91,20 @@ if (isset($_GET['iDisplayStart']) && $_GET['iDisplayLength'] != '-1') {
  * on very large tables, and MySQL's regex functionality is very limited
  */
 $sWhere = "";
-if ($_GET['sSearch'] != "") {
-    $sWhere = "WHERE (";
-    for ($i = 0; $i < count($aColumns); $i++) {
-
-        if ($_GET['checkKotetszam'] == "false" && $aColumns[$i] == "kotetszam") {
-            $sWhere .= $aColumns[$i] . " LIKE '%" . mysqli_real_escape_string($gaSql['link'], $_GET['sSearch']) . "%' OR ";
-        } else {
-            $sWhere .= $aColumns[$i] . " LIKE '%" . mysqli_real_escape_string($gaSql['link'], $_GET['sSearch']) . "%' AND ";
+    if ( isset($_GET['sSearch']) && $_GET['sSearch'] != "" )
+    {
+        $sWhere = "WHERE (";
+        for ( $i=0 ; $i<count($aColumns) ; $i++ )
+        {
+            if ( isset($_GET['bSearchable_'.$i]) && $_GET['bSearchable_'.$i] == "true" )
+            {
+                $sWhere .= $aColumns[$i]." LIKE '%".mysqli_real_escape_string($gaSql['link'], $_GET['sSearch'] )."%' OR ";
+            }
         }
+        $sWhere = substr_replace( $sWhere, "", -3 );
+        $sWhere .= ')';
     }
-    $sWhere = substr_replace($sWhere, "", -3);
-    $sWhere .= ')';
-}
+    
 
 /* Individual column filtering */
 for ($i = 0; $i < count($aColumns); $i++) {
@@ -112,12 +113,8 @@ for ($i = 0; $i < count($aColumns); $i++) {
         if ($sWhere == "") {
             $sWhere = "WHERE ";
         } else {
-
-            if ($_GET['checkKotetszam'] == "false" && $aColumns[$i] == "kotetszam") {
-                $sWhere .= " OR ";
-            } else {
                 $sWhere .= " AND ";
-            }
+            
         }
         if (strpos($_GET['sSearch_' . $i], ' OR ') !== false) {
             $arrOR = explode(" OR ", $_GET['sSearch_' . $i]);
@@ -205,12 +202,12 @@ $sQuery = "
 	";
 
 
-//          $file = 'queries.txt';
-//       $current = file_get_contents($file);
-//// Append a new person to the file
-//$current .= $sQuery;
-//// Write the contents back to the file
-//file_put_contents($file, $current);  
+          $file = 'queries.txt';
+       $current = file_get_contents($file);
+// Append a new person to the file
+$current .= $sQuery;
+// Write the contents back to the file
+file_put_contents($file, $current);  
 
 $rResult = mysqli_query($gaSql['link'], $sQuery) or die(mysqli_error($gaSql['link']));
 
