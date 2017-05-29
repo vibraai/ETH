@@ -11,6 +11,16 @@ $( document ).ready(function() {
     
             });
         });
+        $("#kotetek").live('click', function () {
+            $("#main").load("./downloads.html", function() {
+                
+            });
+        });
+        $("#publikaciok").live('click', function () {
+            $("#main").load("./publish.html", function() {
+                
+            });
+        });
         console.log("hej");
                var                table = $('#example').DataTable({
                     "bProcessing": true,
@@ -202,6 +212,16 @@ $( document ).ready(function() {
             });
     $("#sugo").live('click', function () {
         $("#main").load("./help.html", function() {
+    
+        });
+    });
+    $("#kotetek").live('click', function () {
+        $("#main").load("./downloads.html", function() {
+    
+        });
+    });
+    $("#publikaciok").live('click', function () {
+        $("#main").load("./publish.html", function() {
     
         });
     });
