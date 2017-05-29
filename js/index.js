@@ -7,7 +7,7 @@ $( document ).ready(function() {
                 });
             });
         $("#sugo").live('click', function () {
-            $("#main").load("./about.html", function() {
+            $("#main").load("./help.html", function() {
     
             });
         });
@@ -200,7 +200,7 @@ $( document ).ready(function() {
                 });
             });
     $("#sugo").live('click', function () {
-        $("#main").load("./about.html", function() {
+        $("#main").load("./help.html", function() {
     
         });
     });
