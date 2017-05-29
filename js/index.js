@@ -13,6 +13,7 @@ $( document ).ready(function() {
 					bAutoWidth: false , 
 "oLanguage": {
 	"sSearch": "Keresés: ",
+         "sProcessing": "Adatok lekérdezése...",
 "oPaginate": {
 "sFirst": "Első oldal", // This is the link to the first page
 "sPrevious": "Előző oldal", // This is the link to the previous page
@@ -201,6 +202,7 @@ $( document ).ready(function() {
 					bAutoWidth: false , 
 "oLanguage": {
 	"sSearch": "Keresés: ",
+        "sProcessing": "Adatok lekérdezése...",
 "oPaginate": {
 "sFirst": "Első oldal", // This is the link to the first page
 "sPrevious": "Előző oldal", // This is the link to the previous page
@@ -388,6 +390,7 @@ $( document ).ready(function() {
 					bAutoWidth: false , 
 "oLanguage": {
 	"sSearch": "Keresés: ",
+        "sProcessing": "Adatok lekérdezése...",
 "oPaginate": {
 "sFirst": "Első oldal", // This is the link to the first page
 "sPrevious": "Előző oldal", // This is the link to the previous page
