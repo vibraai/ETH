@@ -53,7 +53,7 @@
 	      </tr>
         </table>
         </div>
-        <div id="menu"></div>
+        <div id="menu"></div><br>
         <div id="main"></div>
         <div id="mapDiv"></div>
     </body>
